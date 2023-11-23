@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+}
+.left, .right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.text{
+    width: 40%;
+}
+.text h2{
+    font-size: 1.9vw;
+    border-bottom: 1px solid black;
+    color: brown;
+
+}
+.text h1{
+    font-size: 3.2vw;
+}
+.text h5{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+/* ========SECTION 2==================== */
+nav{
+    background-color: brown;
+    font-size: 1.2vw;
+}
+nav ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+nav li{
+    float: right;
+}
+nav ul li a{
+    padding: 1vw 2vw;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    background-color: gray;
+}
+
+/* ---------  SECTION 3----------------------- */
+
+.sect{
+    justify-content: space-between;
+    display: flex; 
+    padding: 1vw 1vw;
+}
+.sec-left{
+    width: 49.5%;
+    justify-content: center;
+    align-items: center;
+}
+.sec-right{
+    width: 49.5%;
+}
+.order1{
+    display: flex;
+}
+.part2{
+    margin-left: 3vw;
+}
+.part2 span{
+    font-size: 2.9vw;
+    font-weight: 900;
+    color: rgb(135, 135, 185)
+}
+.part2 p{
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+.part1 h2{
+    display: flex;
+    background-color: brown;
+    color: white;
+    font-size: 2.5vw;
+    padding: 0.4vw 0.4vw;
+    font-family: sans-serif;
+}
+
+.sec-right {
+    background-image: url(form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+/* ==== */
+.cls0 p{
+    padding: 0.5vw 2vw  ;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    font-weight: 500;
+}
+.texts{
+    text-align:center;
+    margin-left: 2vw;
+}
+.texts input{
+    margin-left: 1vw;
+}
+.imges img{
+    margin-left: 4vw;
+    width: 120%;
+    transform: rotate(15deg);
+    margin-top: 1.5vw;
+}
+.inp1{
+    margin-left: 200vw;
+}
+.inp3{
+    margin-left: 0vw
+}
+textarea{
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+/* ===== */
+
+.rotate{
+    display: flex;
+}
+
+.privacy{
+    display: flex;
+    margin-top: 1vw;
+    gap: 1vw;
+}
+.privacy p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+}
+.privacy button{
+    background-color: brown;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    letter-spacing: 0.3vw;
+    padding: 0.8vw;
+    font-weight: 500;
+    
+}
+
+/* ========------------------=-=-=-=-=SECTION 4-=-=-=-=-=-=--=--=--=-=-=-=--=--=-=--=-=-=-----=-=-=--=----=---= */
+
+
+.third{
+    justify-content: space-around;
+    display: flex;
+}
+.cls1{
+    display: flex;
+}
+.cls2 h2{
+    font-size: 2.2vw;
+}
+.cls2 span{
+    color: brown;
+}
+.cls2 h5{
+    font-size: 1.6vw;
+    color: brown;
+    margin-top: 0.5vw;
+}
+.cls2 p{
+    margin-top: 0.5vw;
+    font-weight: 500;
+}
+
+
+
